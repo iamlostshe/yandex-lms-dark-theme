@@ -1,4 +1,4 @@
-:root {
+h4.lesson-card__lesson-title, .course-card-header__title, span.user-menu__name, h4.heading.heading_level_4.student-task-list__task-heading {color: white;} :root {
 	--main-bg: #181818;
 	--second-bg: #1F1F1F;
 	--hover-bg: #2A2D2E;
@@ -322,4 +322,63 @@ svg.user-icon > path + path + circle, svg.user-icon > path + path + circle + cir
 div[style*='background: cornsilk'] {
   background: var(--second-bg);
   border: none;
+}
+
+footer.footer {
+  display: none;
+}
+
+span.user-menu__name {
+  display: none;
+}
+
+div.profile-info__item-content.profile-info__item-content_field_venue {
+  color: #ffffff;
+}
+
+div.profile-info__item-content.profile-info__item-content_field_city {
+  color: #ffffff;
+}
+
+time.profile-info__contacts-item.profile-info__contacts-item_field_birth-date {
+  color: #ffffff;
+}
+
+button.Button2.Button2_view_lyceum.y14470--trigger {
+  color: #ffffff;
+  background-color: #181818;
+  border-color: #2c2e30;
+}
+
+span.ticker__value.ticker__plain {
+  border-style: none;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  text-align: center;
+  font-size: 11px;
+}
+
+#MathJax_Message {
+  filter: grayscale(3%);
+}
+
+#root {
+  filter: grayscale(3%);
+}
+
+#ookdjilphngeeeghgngjabigmpepanpl {
+  filter: grayscale(3%);
+}
+
+time.schedule-events__event-date {
+  color: #ffffff;
+}
+
+
+h1.heading.heading_level_1.courses__heading,
+button.Button2.Button2_size_l.Button2_theme_normal.Button2_view_lyceum.courses-tabs__button,
+div.course-card-header__title,
+button.Button2.Button2_view_lyceum.y14470--trigger {
+  font-family: Hack;
 }
